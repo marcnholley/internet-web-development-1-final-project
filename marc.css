@@ -1,0 +1,133 @@
+/*Marc Holley, 02/08/16, CIS166AA 31865 , Professor Anderson*/
+
+/*Configures Header*/
+header { text-align: center;
+		 text-transform: uppercase; 
+		 font-size: 2.5em;
+		 width: 100%; }
+
+		 /*Configures headline 1*/
+h1 { background-color: #04B431;
+	 text-align: center;
+	 border: 2px dashed #000000;
+	 width: 100%; }
+
+/*Configures wrapper id*/
+#wrapper { width: 80%;
+		   margin-left: 15%;
+		   margin-right: auto; 
+		   margin-bottom: 5%; }
+
+/*Configures Body */
+body { background-color: #0431B4;
+	   color: #000000;
+	   font-family: "Trebuchet MS", Helvetica, sans-serif; }
+
+/*Configures floatleft id*/
+#floatleft { float: left; }
+
+/*Configures Navigation*/
+nav { background-color: #04B431;
+	  color: #000000;
+	  width: 130px;
+	  height: 130px;
+      border: 2px dashed #000000;
+	  text-transform: uppercase;
+	  font-weight: bold; }
+
+/*Configures side and footer navigation*/
+nav a { text-decoration: none; }
+nav a:link       { color: #0431B4; }
+nav a:visited { color: #800080; }
+nav a:hover     { color: #FF0000; }
+nav ul { list-style-type: none; }
+footer a:link { color: #0431B4; }
+footer a:visited { color: #800080; }
+footer a:hover { color: #FF0000; }
+header, nav, main, footer { display: block; }
+
+#sideNav { position: fixed; }
+#navList { margin-top: 5px;
+		   margin-left: -20px;
+		   text-align: center; }
+
+/*Configures headline 2*/
+h2 { background-color: #04B431;
+	 color: #000000;
+	 text-align: center;
+	 font-size: 2em;
+	 width: 90%;
+	 border: 2px dashed #000000; }
+
+/*Configures Main*/
+main { background-color: #04B431;
+	   color: #000000;
+	   text-align: center;
+	   font-weight: bold;
+	   width: 90%;
+       border: 2px dashed #000000; }
+	   
+/*Configures Paragraphs*/
+p {  }
+
+#welcome { font-size: 2em; }
+#info {  }
+
+/*Configures Images*/
+img#imgSunset { border: 2px dashed #000000;
+			    text-align: center; }
+img#imgKick { }
+img#imgMail { border: 2px dashed #000000; }
+/*Configures Field Set*/
+fieldset { border: 2px dashed #000000; }
+/*Configures Tables*/
+table {  }
+
+/*Configures Lables*/
+label {  }
+
+/*Configures Input*/
+input { border: 2px dashed #000000; }
+
+/*Configures Text Area*/
+textarea { border: 2px dashed #000000; }
+
+/*Configures IFrame*/
+iframe { border: 2px dashed #000000; }
+
+/*Configures Lists*/
+li {  }
+
+/*Configures floatright id*/
+#floatright { float: right; }
+
+/*Configures table*/
+eduTbl { text-align: center;
+		   font-weight: bold; 
+		   background-color: #04B431;
+		   border-collapse: collapse; }
+td, th { padding: 5px;
+		 border: 2px dashed #000000; }
+
+/*Configures footer*/
+footer { background-color: #04B431;
+		 color: #000000; 
+		 text-align: center;
+		 font-size: 1em;
+		 clear: both;
+		 border: 2px dashed #000000; }
+
+/*Configures unordered list*/
+ul {  }
+
+/*Configures figure element*/
+figure { width: 205px;
+		 border: 2px dashed #000000; }
+
+		 /*Configures figcaption element*/
+figcaption { text-align: center;
+			 font-family: "Trebuchet MS", Helvetica, sans-serif; }
+/*Configues map element*/
+#map { height: 300px; 
+	   width: 900px;
+	   border: 2px dashed #000000;}

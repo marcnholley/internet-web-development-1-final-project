@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!--Marc Holley, 04/11/16, CIS166AA 31865 , Professor Anderson-->
+<html lang="en">
+<!--Head content-->
+<head>	
+<!--Tab Title-->
+<title>Marc Holley's Webpage</title>
+<meta charset="utf-8">
+<!--Links to CSS-->
+<link rel="stylesheet" href="marc.css" type="text/css">
+<script src="modernizr.custom.05819.js"></script>
+<!--Javascript for IE9 compatibility-->
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+</script>
+<![endif]-->
+<!--End of head content-->
+</head>
+<body>
+<!--Page Title-->
+<!--Header content-->
+<!--Headline 1-->
+<header><h1>Marc Holley</h1></header>
+<!--Side navigation Bar-->
+<nav id="sideNav">
+	<!--Unordered list-->
+	<ul id="navList">
+		<li><a href=index.html>Home</a></li>
+		<li><a href=about.html>About</a></li>
+		<li><a href=education.html>Education</a></li>
+		<li><a href=experience.html>Experience</a></li>
+		<li><a href=skills.html>Skills</a></li>
+		<li><a href=security.html>Security</a></li>
+	</ul>
+<!--End of side navigation-->
+</nav>
+<!--Division wrapper id-->
+<div id="wrapper">
+<!--Headline 2-->
+<h2>This is the webpage of Marc Holley.</h2>
+<!--Main content-->
+<main>
+<!--Paragraph-->
+<p id="welcome">Welcome to my portfolio webpage!</p><br>
+<!--Image-->
+<img id="imgSunset" src="sunset.JPG" alt="Sunset" title="Sunset" width="500" height="250"><br> 
+<!--Paragraph-->
+<p>On this site you will find everything you need to know about me.</p><br>
+<!--Unordered list-->
+	<ul id="info">
+		<li>Personal Information</li>
+		<li>Education</li>
+		<li>Work Experience</li>
+		<li>Special Skills</li>
+	</ul>
+<script>
+</script>
+<!--Form-->
+<center><table>
+<form onsubmit="elapsedTime(); return false">
+<th>Enter a past date</th>
+<td>
+		<label>Current Date:</label>
+<script>
+// declaring and initializing global variabls
+var currentDate = new Date(); // creating new date object
+var currYear = currentDate.getFullYear();
+var currMonth = currentDate.getMonth() + 1;
+var currDay = currentDate.getDate();
+var currHour = currentDate.getHours();
+var currMinute = currentDate.getMinutes();
+var currSecond = currentDate.getSeconds();
+		
+		document.write(currMonth + "/");
+		document.write(currDay + "/");
+		document.write(currYear + " (");
+		document.write(currHour + ":");
+		document.write(currMinute + ":");
+		document.write(currSecond + ")");
+</script>
+</td>
+<tr>
+	<td>
+		<center><label>Date</label><br>
+		<input id="day" type="text"><br>
+		<label>Month</label><br>
+		<input id="month" type="text"><br>
+		<label>Year</label><br>
+		<input id="year" type="text"><br></center>
+	</td>
+	<td>
+		 <label id="displayDays"></label> Day(s), <label id="displayMonths"></label> Month(s), and <label id="displayYears"></label> Year(s)
+	</td>
+</tr>	
+<tr>
+	<td>
+		<center><input type="submit" action="post" value="Calculate" id="calculate" /></center>
+	</td>
+	<td>
+		Have elapsed since the chosen date.
+	</td>
+</tr>
+</form>
+</table></center><br>
+<!--End of main content-->
+</main>
+<!--End of division-->
+</div>
+<!--Footer content-->
+<footer>
+		<!--Footer Navigation-->
+		<a href=index.html>Home</a> | <a href=about.html>About</a> | <a href=education.html>Education</a> | <a href=experience.html>Experience</a> | <a href=specialskills.html>Special Skills</a><br>
+			Copyright &copy; 2016 Marc Holley's Webpage<br>
+			<a href="mailto:marcnholley@gmail.com">marcholley@marcholley.com</a>
+<!--Paragraph-->
+<p>
+
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
+
+</p>
+<!--End of footer content-->
+</footer>
+</body>
+<script src="jquery-1.12.3.js"></script>
+<script src="marc.js"></script>
+</html>
+
+

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!--Marc Holley, 04/11/16, CIS166AA 31865 , Professor Anderson-->
+<html lang="en">
+<!--Head content-->
+<head>	
+<!--Tab Title-->
+<title>Marc Holley's Webpage</title>
+<meta charset="utf-8">
+<!--Links to CSS-->
+<link rel="stylesheet" href="marc.css" type="text/css">
+<script src="modernizr.custom.05819.js"></script>
+<!--Javascript for IE9 compatibility-->
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+</script>
+<![endif]-->
+<!--End of head content-->
+</head>
+<body>
+<!--Page Title-->
+<!--Header content-->
+<!--Headline 1-->
+<header><h1>Marc Holley</h1></header>
+<!--Side navigation Bar-->
+<nav id="sideNav">
+	<!--Unordered list-->
+	<ul id="navList">
+		<li><a href=index.html>Home</a></li>
+		<li><a href=about.html>About</a></li>
+		<li><a href=education.html>Education</a></li>
+		<li><a href=experience.html>Experience</a></li>
+		<li><a href=skills.html>Skills</a></li>
+		<li><a href=security.html>Security</a></li>
+	</ul>
+<!--End of side navigation-->
+</nav>
+<!--Division wrapper id-->
+<div id="wrapper">
+<!--Headline 2-->
+<h2>Security</h2>
+<!--Main content-->
+<main>
+<center><table>
+<th>
+<p id ="location"></p>
+</th>
+<tr>
+<td>
+<p id="map"><p>
+</td>
+</tr>
+</table></center>
+<ul>
+	<li><a href=http://us.norton.com/security_response/browsewebsafely.jsp>Norton</a>
+	- Avoid phising from fraudulent websites, spyware from free downloads or visting suspicous webpages, 
+	and web browser vulnerablities by making sure evertying is updated and configured correctly.</li><br>
+	<li><a href=https://support.mozilla.org/en-US/kb/how-stay-safe-web>Mozilla</a>
+	- Keep your software and operating system up to date, check your browser settings for help staying safe,
+	 and use common sense when dealing with all of your private information.</li><br>
+	<li><a href=https://software.ncsu.edu/internet-browsing-best-practices>NCSU Software</a>
+	- Practice safe browsing methods by only visiting trusted sites, not disclosing private account 
+	information to anyone, and run scans with anti-virus software regularly.</li><br>
+</ul>
+<script>
+//writes navigator and screen values to html document
+document.write("Application name: " + navigator.appName + "|");
+
+document.write("Web browser version: " + navigator.appVersion + "|");
+
+document.write("Operating platform: " + navigator.platform + "|");
+
+document.write("User agent: " + navigator.userAgent + "|");
+
+document.write("Available height: " + screen.availHeight + "|");
+
+document.write("Available width: " + screen.availWidth);
+</script>
+<!--End of main content-->
+</main>
+<!--End of division-->
+</div>
+<!--Footer content-->
+<footer>
+		<!--Footer Navigation-->
+		<a href=index.html>Home</a> | <a href=about.html>About</a> | <a href=education.html>Education</a> | <a href=experience.html>Experience</a> | <a href=specialskills.html>Special Skills</a><br>
+			Copyright &copy; 2016 Marc Holley's Webpage<br>
+			<a href="mailto:marcnholley@gmail.com">marcholley@marcholley.com</a>
+<!--Paragraph-->
+<p>
+
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
+
+</p>
+<!--End of footer content-->
+</footer>
+</body>
+<script src="jquery-1.12.3.js"></script>
+<script src="marc.js"></script>
+</html>
